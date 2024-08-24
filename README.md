@@ -1,4 +1,4 @@
-# Benchmark 2nd problem Danilovskaya
+# Benchmark 2nd Danilovskaya problem
 
 [![GitHub license](https://img.shields.io/github/license/fwurtzer/Benchmark_Danilovskaya2)](https://github.com/fwurtzer/Benchmark_Danilovskaya2) [![GitHub release](https://img.shields.io/github/release/fwurtzer/Benchmark_Danilovskaya2.svg)](https://github.com/fwurtzer/Benchmark_Danilovskaya2/releases/) 
 
@@ -10,7 +10,7 @@ This repository contains an [NGSolve](https://ngsolve.org/) implementation of th
 ## 2) Quickstart
 
 - To run **online** with [Binder](https://jupyter.org/binder) (no installation required):
-  - click on the following Binder link [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fwurtzer/Benchmark_Danilovskaya2/main?urlpath=/tree/)
+  - click on the following Binder link [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fwurtzer/Benchmark_Danilovskaya/main?urlpath=/tree/)
   - wait for the launch of the virtual machine
   - click on `ThermoElasticity.ipynb`
 
