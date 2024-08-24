@@ -1,6 +1,6 @@
 # Benchmark 2nd Danilovskaya problem
 
-[![GitHub license](https://img.shields.io/github/license/fwurtzer/Benchmark_Danilovskaya2)](https://github.com/fwurtzer/Benchmark_Danilovskaya2) [![GitHub release](https://img.shields.io/github/release/fwurtzer/Benchmark_Danilovskaya2.svg)](https://github.com/fwurtzer/Benchmark_Danilovskaya2/releases/) 
+[![GitHub license](https://img.shields.io/github/license/fwurtzer/Benchmark_Danilovskaya)](https://github.com/fwurtzer/Benchmark_Danilovskaya) [![GitHub release](https://img.shields.io/github/release/fwurtzer/Benchmark_Danilovskaya.svg)](https://github.com/fwurtzer/Benchmark_Danilovskaya/releases/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13370352.svg)](https://doi.org/10.5281/zenodo.13370352) 
 
 ## 1) Description
 
@@ -21,14 +21,14 @@ This repository contains an [NGSolve](https://ngsolve.org/) implementation of th
 
 ## 3) Local installation (tested on Windows 10 and 11)
 
-1. Download and unzip the contents of the current [github directory](https://github.com/fwurtzer/Benchmark_Danilovskaya2) in any folder. Click on `Code <>`, then `Download ZIP`.
+1. Download and unzip the contents of the current [github directory](https://github.com/fwurtzer/Benchmark_Danilovskaya) in any folder. Click on `Code <>`, then `Download ZIP`.
 2. Download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) with the default options for your system.
 3. Open an Anaconda Prompt console (on Windows, type `Anaconda prompt` in the bottom-left search bar; on Linux and Mac, use the terminal directly).
 
 From now on, write the following sequence of instructions on the console (you can copy the instructions and paste them into the console by right-clicking; press Enter after writing the instruction to execute it; press “y” to confirm when prompted) : 
 
-4. Create a new environment called “benchmark_Danilovskaia” : `conda create -n benchmark_Danilovskaia python=3`.
-5. Activate the environment: `conda activate benchmark_Danilovskaia`.
+4. Create a new environment called “benchmark_Danilovskaya” : `conda create -n benchmark_Danilovskaya python=3`.
+5. Activate the environment: `conda activate benchmark_Danilovskaya`.
 6. Install the necessary packages (500Mb): `conda install jupyter numpy matplotlib` (press `y` + `Enter` to confirm installation). If a freeze occurs, close the console and repeat steps 3, 5 and 6. Packages already downloaded will not be re-downloaded, which will make the process smoother.
 7. Install NGSolve (300Mb): `pip install ngsolve`.
 8. Install viewing extensions on notebooks:
@@ -43,7 +43,22 @@ From now on, write the following sequence of instructions on the console (you ca
 
 Please use the following citation reference if you use the code:
 
-    F. Wurtzer, T. Cherrière. Github repository: fwurtzer/Benchmark_Danilovskaya2 (v1.0), August 2024. Zenodo. URL ZenodoXXX
+    F. Wurtzer, T. Cherrière. Github repository: fwurtzer/Benchmark_Danilovskaya:latest, August 2024. Zenodo. URL https://doi.org/10.5281/zenodo.13370352
+
+Bibtex entry:
+
+    @software{fwurtzer2024,
+    author       = {Wurtzer, Floriane and Cherrière, Théodore},
+    title        = {fwurtzer/Benchmark_Danilovskaia},
+    month        = aug,
+    year         = 2024,
+    publisher    = {Zenodo},
+    version      = {v0.1},
+    doi          = {10.5281/zenodo.13370352},
+    url          = {https://doi.org/10.5281/zenodo.13370352}
+    }
+
+**NB: version number and DOI must be adapted from [Zenodo's repository.](https://doi.org/10.5281/zenodo.13370352)**
 
 ## 5) License
 
