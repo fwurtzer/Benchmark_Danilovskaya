@@ -1,0 +1,10 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Wurtzer
+  given-names: Floriane
+- family-names: Cherrière
+  given-names: Théodore
+title: Benchmark_Danilovskaya
+version: v0.1
+date-released: 2024-08-24
